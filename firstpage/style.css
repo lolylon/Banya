@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     font-family: 'Gotham Pro';
+    padding: 0px;
 }
 
 a {
@@ -35,6 +36,8 @@ button {
     font-weight: 900;
     line-height: 50px;
     text-align: center;
+    height: 30px;
+    align-items: center;
 }
 
 .header_menu a:hover {
@@ -52,18 +55,20 @@ button {
     height: 39.06px;
 }
 
-.header_city {
+.header-city {
     color: #979799;
     font-size: 12px;
     font-weight: 700;
     line-height: 20px;
+    margin-right: 5px;
 }
 
-.header_number p a {
+.header-number a {
     font-size: 12px;
     font-weight: 700;
     line-height: 20px;
     color: #FFFFFF;
+    float: left;
 }
 
 .topside {
@@ -729,6 +734,9 @@ button:active {
     display: flex;
 }
 
+.contactListblock a {
+    margin-left: 10px;
+}
 .contactListblock p {
     margin-left: 10px;
 }
@@ -1210,7 +1218,6 @@ input:-webkit-autofill:focus {
     border-radius: 20px;
     opacity: 0px;
     background-color: #006400;
-    transition: transform 0.5s ease;
 }
 
 .container .slidergallery {
@@ -1221,6 +1228,7 @@ input:-webkit-autofill:focus {
     padding: 40px;
     padding-left: 0px;
     flex: none;
+    transition: all 1s ease;
 }
 
 .container {
